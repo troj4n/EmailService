@@ -92,7 +92,7 @@ def send_email(recipient_email,subject,cc,bcc,message):
     except Exception as error:
         print(error)
 
-@periodic_task(run_every=(crontab(minute='*/2')), name="email_report", ignore_result=True)
+@periodic_task(run_every=(crontab(minute='*/30')), name="email_report", ignore_result=True)
 def send_report():
     try:
         today = datetime.date.today()
