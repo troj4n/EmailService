@@ -16,11 +16,11 @@ import smtplib,ssl
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "centurylink.ad@gmail.com"
-SENDER_EMAIL_PASSWORD = "0nly4CTL2c"
+SENDER_EMAIL = "<gmail address>"
+SENDER_EMAIL_PASSWORD = "<password>"
 
 #FOR REPORT
-ADMIN_EMAIL = "amanverma23@hotmail.com"
+ADMIN_EMAIL = "<admin email>"
 
 def home(request):
     try:
